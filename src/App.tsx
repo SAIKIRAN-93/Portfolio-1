@@ -30,9 +30,9 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 w-full">
       <Header />
-      <main className="container mx-auto px-5">
+      <main className="w-full">
         <About />
         <Education />
         <Skills />

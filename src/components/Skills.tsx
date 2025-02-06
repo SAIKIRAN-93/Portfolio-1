@@ -49,8 +49,9 @@ const Skills: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 space-gradient relative">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80')] opacity-10"></div>
+    <section id="skills" className="py-24 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-purple-900 to-violet-900 opacity-100"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80')] opacity-20"></div>
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl font-bold mb-16 text-center text-purple-300">Technical Expertise & Skills</h2>
         
